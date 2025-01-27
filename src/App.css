@@ -1,3 +1,4 @@
 body {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-image: url("../public/images/wallp2.png");
+    background-size: cover;
 }
