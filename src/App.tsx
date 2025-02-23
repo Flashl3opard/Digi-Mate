@@ -1,14 +1,16 @@
 import "./App.css";
-import Darkmode from "../public/components/DarkMode";
-import Toggle from "../public/components/Apps";
 
+import Navbar from "../public/components/Navbar";
+import Switch from "../public/components/Switch";
 function App() {
   return (
     <>
-      <div className="absolute">
-        <Darkmode />
-        <Toggle />
+      <div className="App">
+        <h1>React Background Toggle 🌅</h1>
+        <Switch />
       </div>
+
+      <Navbar />
     </>
   );
 }
