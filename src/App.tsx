@@ -1,5 +1,5 @@
 import "./App.css";
-import Darkmode from "../public/components/";
+import Darkmode from "../public/components/DarkMode";
 import Toggle from "../public/components/Apps";
 
 function App() {
