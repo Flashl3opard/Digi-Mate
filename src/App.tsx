@@ -1,15 +1,14 @@
 import "./App.css";
-import Navbar from "../public/components/Navbar";
-import Apps from "../public/components/Apps";
-import { BrowserRouter as Router } from "react-router-dom";
-import { Route } from "react-router-dom";
+import Darkmode from "../public/components/";
+import Toggle from "../public/components/Apps";
 
 function App() {
   return (
     <>
-      <Navbar />
-
-      <Apps />
+      <div className="absolute">
+        <Darkmode />
+        <Toggle />
+      </div>
     </>
   );
 }

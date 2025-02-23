@@ -1,10 +1,9 @@
 import { FaGithub } from "react-icons/fa";
-import React from "react";
 
 const Apps = () => {
   return (
     <>
-      <div className="relative -top-[190px]">
+      <div className="relative -top-[190px] opacity-0">
         <div className="flex gap-20 justify-center">
           <div className="flex justify-center items-center h-screen ">
             <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg flex flex-col items-center h-[150px] w-[115px] hover:scale-110 ">
