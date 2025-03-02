@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
-import "./BackgroundToggle.css"; // Add styles separately
+import "./BackgroundToggle.css";
 
-// Define background images
 const backgrounds = {
   light: "/images/wallp1.png",
   dark: "/images/wallp2.png",
 };
 
 const BackgroundToggle: React.FC = () => {
-  // Get initial background from localStorage or default to "light"
   const [isDarkBackground, setIsDarkBackground] = useState<boolean>(
     localStorage.getItem("background") === "dark"
   );
@@ -26,7 +24,7 @@ const BackgroundToggle: React.FC = () => {
       className="background-toggle"
       onClick={() => setIsDarkBackground(!isDarkBackground)}
     >
-      {isDarkBackground ? "🌄 Light Background" : "🌌 Dark Background"}
+      {isDarkBackground ? "🟢" : "🔵 "}
     </button>
   );
 };
