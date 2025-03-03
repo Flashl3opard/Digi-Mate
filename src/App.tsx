@@ -2,6 +2,7 @@ import "./App.css";
 
 import Navbar from "../public/components/Navbar";
 import Switch from "../public/components/Switch";
+import Leetcode from "../public/components/Leetcode";
 function App() {
   return (
     <>
@@ -11,6 +12,9 @@ function App() {
       </div>
 
       <Navbar />
+      <div className="">
+        <Leetcode />
+      </div>
     </>
   );
 }

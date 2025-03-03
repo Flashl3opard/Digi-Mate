@@ -1,9 +1,8 @@
 import React from "react";
-
 const Leetcode = () => {
   return (
     <>
-      <section>hello</section>
+      <section className="fixed bg-white w-[85vw] h-[75vh] rounded-3xl translate-x-[9vw] translate-y-[10vh]"></section>
     </>
   );
 };
