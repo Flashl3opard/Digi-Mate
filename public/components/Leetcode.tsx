@@ -36,7 +36,7 @@ const Leetcode = () => {
               {/* Biodata */}
               <div className="mt-2 text-gray-300 text-sm ">
                 <p>🚀 Passionate about React & Tailwind</p>
-                <p>📍 Location: New York, USA</p>
+                <p>📍 Location: India </p>
                 <p>💼 Working at XYZ Corp</p>
               </div>
             </div>
